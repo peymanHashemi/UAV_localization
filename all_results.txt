@@ -1,0 +1,500 @@
+ ---------------------- Day 0 ----------------------
+
+name of test : vit_s_p16_21k_1k__015__150__60_100
+-> backbone: vit_small_patch16_224.augreg_in21k_ft_in1k - lr: 0.015 - batchsize: 16 - epoch: 150 - lr_step1: 60 - lr_step2: 100- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:48.58 Recall@5:71.63 AP:37.94
+SDM@1: 0.5778029294198181  - SDM@5: 0.5104481512258812 - SDM@10: 0.4462831037905552
+=====================================================================================================================
+name of test : vit_s_r26_s32__21k_1k__015__150__60_100
+-> backbone: vit_small_r26_s32_224.augreg_in21k_ft_in1k - lr: 0.015 - batchsize: 16 - epoch: 150 - lr_step1: 60 - lr_step2: 100- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:51.06 Recall@5:73.05 AP:42.66
+SDM@1: 0.6018262458987662  - SDM@5: 0.5454696751169616 - SDM@10: 0.4791029660626794
+=====================================================================================================================
+name of test : repvit_m2_3_450e_1k__01__150__70_110
+-> backbone: repvit_m2_3.dist_450e_in1k - lr: 0.01 - batchsize: 16 - epoch: 150 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:2.84 Recall@5:10.64 AP:4.26
+SDM@1: 0.07400525670050283  - SDM@5: 0.08007719607797324 - SDM@10: 0.07907281600865208
+=====================================================================================================================
+name of test : xcit_s_12_p8_1k__005__150__70_110
+-> backbone: xcit_small_12_p8_224.fb_dist_in1k - lr: 0.005 - batchsize: 16 - epoch: 150 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : eva2_b_p14__22k_1k__005__250__80_170
+-> backbone: eva02_base_patch14_224.mim_in22k - lr: 0.005 - batchsize: 16 - epoch: 250 - lr_step1: 80 - lr_step2: 170- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:63.12 Recall@5:89.72 AP:52.95
+SDM@1: 0.7023430400589152  - SDM@5: 0.6468008724321763 - SDM@10: 0.5618891213594637
+=====================================================================================================================
+name of test : mvit_b_21k__015__150__60_100_All_Data
+-> backbone: mvitv2_base_cls.fb_inw21k - lr: 0.015 - batchsize: 16 - epoch: 150 - lr_step1: 60 - lr_step2: 100- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:88.12 Recall@5:97.68 AP:79.47
+SDM@1: 0.9040326096821503  - SDM@5: 0.8583333797679663 - SDM@10: 0.7340414931416088
+=====================================================================================================================
+name of test : vit_s_p16_21k_1k__01__150__75_120
+-> backbone: vit_small_patch16_224.augreg_in21k_ft_in1k - lr: 0.01 - batchsize: 16 - epoch: 150 - lr_step1: 75 - lr_step2: 120- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:46.81 Recall@5:73.05 AP:38.50
+SDM@1: 0.5619790980330823  - SDM@5: 0.5113952321970469 - SDM@10: 0.4467755588260522
+=====================================================================================================================
+name of test : vit_s_r26_s32__21k_1k__01__180__60_120
+-> backbone: vit_small_r26_s32_224.augreg_in21k_ft_in1k - lr: 0.01 - batchsize: 16 - epoch: 180 - lr_step1: 60 - lr_step2: 120- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:32.62 Recall@5:56.03 AP:26.06
+SDM@1: 0.44703408309950293  - SDM@5: 0.4077432285604593 - SDM@10: 0.3640901015178286
+=====================================================================================================================
+name of test : repvit_m2_3_450e_1k__0005__180__65_130
+-> backbone: repvit_m2_3.dist_450e_in1k - lr: 0.0005 - batchsize: 16 - epoch: 180 - lr_step1: 65 - lr_step2: 130- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:1.06 Recall@5:7.80 AP:2.08
+SDM@1: 0.0639581260445008  - SDM@5: 0.06774955304995532 - SDM@10: 0.06861547506195523
+=====================================================================================================================
+name of test : xcit_s_12_p8_1k__008__250__80_140_200
+-> backbone: xcit_small_12_p8_224.fb_dist_in1k - lr: 0.008 - batchsize: 16 - epoch: 250 - lr_step1: 80 - lr_step2: 140- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:47.87 Recall@5:75.18 AP:41.60
+SDM@1: 0.5656644475480025  - SDM@5: 0.5290496868520157 - SDM@10: 0.47380035652409197
+=====================================================================================================================
+name of test : eva2_b_p14__22k_1k__0075__200__85_150
+-> backbone: eva02_base_patch14_224.mim_in22k - lr: 0.0075 - batchsize: 16 - epoch: 200 - lr_step1: 85 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:56.38 Recall@5:84.40 AP:45.36
+SDM@1: 0.6389954205359365  - SDM@5: 0.5772184677043402 - SDM@10: 0.5032138134144423
+=====================================================================================================================
+name of test : mvit_b_21k__014__250__65_120_200
+-> backbone: mvitv2_base_cls.fb_inw21k - lr: 0.014 - batchsize: 16 - epoch: 250 - lr_step1: 65 - lr_step2: 120- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:61.35 Recall@5:87.94 AP:50.44
+SDM@1: 0.6918503992382065  - SDM@5: 0.6284435330548594 - SDM@10: 0.5529810902783242
+===================================================================================================================== ---------------------- Day 1 ----------------------
+
+name of test : mvit_b_21k__015__150__60_100
+-> backbone: mvitv2_base_cls.fb_inw21k - lr: 0.015 - batchsize: 16 - epoch: 150 - lr_step1: 60 - lr_step2: 100- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:60.28 Recall@5:81.21 AP:49.90
+SDM@1: 0.6822234107573756  - SDM@5: 0.6254732054055646 - SDM@10: 0.5377171178706973
+=====================================================================================================================
+name of test : caf_s36_22k_1k__015__150__60_100
+-> backbone: caformer_s36.sail_in22k_ft_in1k - lr: 0.015 - batchsize: 16 - epoch: 150 - lr_step1: 60 - lr_step2: 100- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss ---------------------- Day 2 ----------------------
+
+name of test : mvit_b_21k__0175__150__60_100
+-> backbone: mvitv2_base_cls.fb_inw21k - lr: 0.0175 - batchsize: 16 - epoch: 150 - lr_step1: 60 - lr_step2: 100- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:57.80 Recall@5:76.24 AP:46.67
+SDM@1: 0.6549948568443502  - SDM@5: 0.5851547601469199 - SDM@10: 0.5096047028809987
+=====================================================================================================================
+name of test : caf_s36_22k_1k__01__150__60_100
+-> backbone: caformer_s36.sail_in22k_ft_in1k - lr: 0.01 - batchsize: 16 - epoch: 150 - lr_step1: 60 - lr_step2: 100- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:2.48 Recall@5:9.57 AP:3.17
+SDM@1: 0.0874724732581991  - SDM@5: 0.08519905140977155 - SDM@10: 0.08145991034507746
+=====================================================================================================================
+name of test : tiny_21m_22k_1k__015__150__70_110
+-> backbone: tiny_vit_21m_224.dist_in22k_ft_in1k - lr: 0.015 - batchsize: 16 - epoch: 150 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:19.50 Recall@5:40.78 AP:12.44
+SDM@1: 0.29375828103737267  - SDM@5: 0.26674256880405967 - SDM@10: 0.23915214318394318
+=====================================================================================================================
+name of test : mxvit_rmlp_s_1k__015__150__60_100
+-> backbone: maxvit_rmlp_small_rw_224.sw_in1k - lr: 0.015 - batchsize: 16 - epoch: 150 - lr_step1: 60 - lr_step2: 100- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:9.93 Recall@5:24.11 AP:8.17
+SDM@1: 0.16066134884829394  - SDM@5: 0.15174951078010476 - SDM@10: 0.14290937111462262
+=====================================================================================================================
+name of test : coat_rmlp_1_12k_1k__015__150__60_110
+-> backbone: coatnet_rmlp_1_rw2_224.sw_in12k_ft_in1k - lr: 0.015 - batchsize: 16 - epoch: 150 - lr_step1: 60 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:4.96 Recall@5:12.77 AP:4.67
+SDM@1: 0.11279074355168814  - SDM@5: 0.10729502392769218 - SDM@10: 0.10680548925854519
+=====================================================================================================================
+name of test : volo_d2_1k__015__150__60_110
+-> backbone: volo_d2_224.sail_in1k - lr: 0.015 - batchsize: 16 - epoch: 150 - lr_step1: 60 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:46.45 Recall@5:70.21 AP:37.88
+SDM@1: 0.569637877893701  - SDM@5: 0.5195834294346584 - SDM@10: 0.4506285388407303
+===================================================================================================================== ---------------------- Day 2 ----------------------
+
+name of test : mvit_b_21k__015__150__50_90
+-> backbone: mvitv2_base_cls.fb_inw21k - lr: 0.015 - batchsize: 16 - epoch: 150 - lr_step1: 50 - lr_step2: 90- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:58.16 Recall@5:76.95 AP:48.13
+SDM@1: 0.6616328627205295  - SDM@5: 0.5934082920968179 - SDM@10: 0.5191507379410658
+=====================================================================================================================
+name of test : caf_s36_22k_1k__0075__180__70_130
+-> backbone: caformer_s36.sail_in22k_ft_in1k - lr: 0.0075 - batchsize: 16 - epoch: 180 - lr_step1: 70 - lr_step2: 130- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:3.90 Recall@5:14.18 AP:4.36
+SDM@1: 0.0921271981071044  - SDM@5: 0.09106948798093434 - SDM@10: 0.09060667733282539
+=====================================================================================================================
+name of test : tiny_21m_22k_1k__0075__150__70_110
+-> backbone: tiny_vit_21m_224.dist_in22k_ft_in1k - lr: 0.0075 - batchsize: 16 - epoch: 150 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:19.86 Recall@5:45.04 AP:17.18
+SDM@1: 0.3060713498722093  - SDM@5: 0.29582891430855557 - SDM@10: 0.27160736718993755
+=====================================================================================================================
+name of test : mxvit_rmlp_s_1k__0075__200__75_150
+-> backbone: maxvit_rmlp_small_rw_224.sw_in1k - lr: 0.0075 - batchsize: 16 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:22.34 Recall@5:42.55 AP:17.65
+SDM@1: 0.3015625570233502  - SDM@5: 0.2628984406623971 - SDM@10: 0.24592749395664085
+=====================================================================================================================
+name of test : coat_rmlp_1_12k_1k__0075__180__70_130
+-> backbone: coatnet_rmlp_1_rw2_224.sw_in12k_ft_in1k - lr: 0.0075 - batchsize: 16 - epoch: 180 - lr_step1: 70 - lr_step2: 130- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:4.26 Recall@5:11.35 AP:4.33
+SDM@1: 0.0888919254246838  - SDM@5: 0.08887512485349462 - SDM@10: 0.09067692743664431
+=====================================================================================================================
+name of test : volo_d2_1k__01__150__70_110
+-> backbone: volo_d2_224.sail_in1k - lr: 0.01 - batchsize: 16 - epoch: 150 - lr_step1: 55 - lr_step2: 100- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:47.52 Recall@5:80.14 AP:42.49
+SDM@1: 0.5703938655975929  - SDM@5: 0.5480412811490386 - SDM@10: 0.4820706892103726
+=====================================================================================================================
+name of test : mvit_b_21k__0075__200__70_130
+-> backbone: mvitv2_base_cls.fb_inw21k - lr: 0.0075 - batchsize: 16 - epoch: 200 - lr_step1: 70 - lr_step2: 130- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:53.90 Recall@5:85.46 AP:48.91
+SDM@1: 0.6357188833814418  - SDM@5: 0.6134623676369869 - SDM@10: 0.5447823085192577
+=====================================================================================================================
+name of test : caf_s36_22k_1k__005__250__80_170
+-> backbone: caformer_s36.sail_in22k_ft_in1k - lr: 0.005 - batchsize: 16 - epoch: 250 - lr_step1: 80 - lr_step2: 170- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:3.90 Recall@5:15.25 AP:5.05
+SDM@1: 0.10103760369940101  - SDM@5: 0.11182546100040873 - SDM@10: 0.11032638493647141
+=====================================================================================================================
+name of test : tiny_21m_22k_1k__0075__200__80_140
+-> backbone: tiny_vit_21m_224.dist_in22k_ft_in1k - lr: 0.0075 - batchsize: 16 - epoch: 200 - lr_step1: 80 - lr_step2: 140- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:19.86 Recall@5:45.04 AP:17.65
+SDM@1: 0.31272434418797346  - SDM@5: 0.2948167574312295 - SDM@10: 0.2732427016052202
+=====================================================================================================================
+name of test : mxvit_rmlp_s_1k__005__200__75_150
+-> backbone: maxvit_rmlp_small_rw_224.sw_in1k - lr: 0.005 - batchsize: 16 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:27.30 Recall@5:58.51 AP:23.66
+SDM@1: 0.393559960208677  - SDM@5: 0.37338030939189326 - SDM@10: 0.33244284507697214
+=====================================================================================================================
+name of test : coat_rmlp_1_12k_1k__005__250__85_160_220
+-> backbone: coatnet_rmlp_1_rw2_224.sw_in12k_ft_in1k - lr: 0.005 - batchsize: 16 - epoch: 250 - lr_step1: 85 - lr_step2: 160- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:20.57 Recall@5:42.91 AP:17.42
+SDM@1: 0.28409971381761895  - SDM@5: 0.27360907135227447 - SDM@10: 0.24472122570919383
+=====================================================================================================================
+name of test : volo_d2_1k__0075__180__80_130
+-> backbone: volo_d2_224.sail_in1k - lr: 0.0075 - batchsize: 16 - epoch: 180 - lr_step1: 80 - lr_step2: 130- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:52.13 Recall@5:78.72 AP:43.57
+SDM@1: 0.6125516228182535  - SDM@5: 0.5663204788759924 - SDM@10: 0.48958762919590354
+===================================================================================================================== ---------------------- Day 3 ----------------------
+
+name of test : mvit_b_21k__005__250__80_130_190
+-> backbone: mvitv2_base_cls.fb_inw21k - lr: 0.005 - batchsize: 16 - epoch: 250 - lr_step1: 80 - lr_step2: 130- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:58.16 Recall@5:84.04 AP:44.72
+SDM@1: 0.6653616501824577  - SDM@5: 0.5863839028824589 - SDM@10: 0.5152155853840145
+=====================================================================================================================
+name of test : caf_s36_22k_1k__0075__250__85_170
+-> backbone: caformer_s36.sail_in22k_ft_in1k - lr: 0.0075 - batchsize: 16 - epoch: 250 - lr_step1: 85 - lr_step2: 170- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:14.54 Recall@5:36.88 AP:11.35
+SDM@1: 0.21297886409289435  - SDM@5: 0.19978614446616166 - SDM@10: 0.18572840398695928
+=====================================================================================================================
+name of test : tiny_21m_22k_1k__005__200__75_150
+-> backbone: tiny_vit_21m_224.dist_in22k_ft_in1k - lr: 0.005 - batchsize: 16 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:19.15 Recall@5:46.10 AP:16.86
+SDM@1: 0.3004362869960307  - SDM@5: 0.27999592595146167 - SDM@10: 0.2669246205295698
+=====================================================================================================================
+name of test : mxvit_rmlp_s_1k__01__200__60_100_170
+-> backbone: maxvit_rmlp_small_rw_224.sw_in1k - lr: 0.01 - batchsize: 16 - epoch: 200 - lr_step1: 60 - lr_step2: 100- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:13.48 Recall@5:28.72 AP:11.42
+SDM@1: 0.2129324516975274  - SDM@5: 0.20336328990320807 - SDM@10: 0.18653184940446818
+=====================================================================================================================
+name of test : coat_rmlp_1_12k_1k__0085__180__75_130
+-> backbone: coatnet_rmlp_1_rw2_224.sw_in12k_ft_in1k - lr: 0.0085 - batchsize: 16 - epoch: 180 - lr_step1: 75 - lr_step2: 130- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:4.26 Recall@5:12.06 AP:4.54
+SDM@1: 0.11208883857386537  - SDM@5: 0.10381500133226926 - SDM@10: 0.10173331569966705
+=====================================================================================================================
+name of test : volo_d2_1k__005__250__80_140
+-> backbone: volo_d2_224.sail_in1k - lr: 0.005 - batchsize: 16 - epoch: 250 - lr_step1: 80 - lr_step2: 140- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:47.52 Recall@5:70.57 AP:39.15
+SDM@1: 0.5632555484656574  - SDM@5: 0.5098831703426937 - SDM@10: 0.45404196080725945
+=====================================================================================================================
+name of test : mvit_b_21k__0125__250__60_100_170
+-> backbone: mvitv2_base_cls.fb_inw21k - lr: 0.0125 - batchsize: 16 - epoch: 250 - lr_step1: 60 - lr_step2: 100- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:59.57 Recall@5:81.91 AP:46.50
+SDM@1: 0.6799010759234348  - SDM@5: 0.5972880211590338 - SDM@10: 0.5132163705278863
+=====================================================================================================================
+name of test : caf_s36_22k_1k__001__250__85_170
+-> backbone: caformer_s36.sail_in22k_ft_in1k - lr: 0.001 - batchsize: 16 - epoch: 250 - lr_step1: 85 - lr_step2: 170- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:32.98 Recall@5:59.22 AP:25.07
+SDM@1: 0.43162252775747284  - SDM@5: 0.38244854038609444 - SDM@10: 0.34152787041407373
+=====================================================================================================================
+name of test : tiny_21m_22k_1k__01__200__50_90_150
+-> backbone: tiny_vit_21m_224.dist_in22k_ft_in1k - lr: 0.01 - batchsize: 16 - epoch: 200 - lr_step1: 50 - lr_step2: 90- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:22.34 Recall@5:48.94 AP:17.17
+SDM@1: 0.33972855962453835  - SDM@5: 0.31776348155849476 - SDM@10: 0.290606166116942
+=====================================================================================================================
+name of test : mxvit_rmlp_s_1k__005__250__60_100_180
+-> backbone: maxvit_rmlp_small_rw_224.sw_in1k - lr: 0.005 - batchsize: 16 - epoch: 250 - lr_step1: 60 - lr_step2: 100- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:29.43 Recall@5:53.90 AP:22.76
+SDM@1: 0.3775046172469238  - SDM@5: 0.34253711915565305 - SDM@10: 0.30705288738230824
+=====================================================================================================================
+name of test : coat_rmlp_1_12k_1k__0125__180__75_130
+-> backbone: coatnet_rmlp_1_rw2_224.sw_in12k_ft_in1k - lr: 0.0125 - batchsize: 16 - epoch: 180 - lr_step1: 75 - lr_step2: 130- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:5.32 Recall@5:20.92 AP:5.87
+SDM@1: 0.14359285592073867  - SDM@5: 0.14712966480407844 - SDM@10: 0.1426832310667142
+=====================================================================================================================
+name of test : volo_d2_1k__0075__250__80_140
+-> backbone: volo_d2_224.sail_in1k - lr: 0.0075 - batchsize: 16 - epoch: 250 - lr_step1: 80 - lr_step2: 140- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:48.94 Recall@5:78.72 AP:41.97
+SDM@1: 0.5797359178897802  - SDM@5: 0.5350893856951324 - SDM@10: 0.47562810503868874
+===================================================================================================================== ---------------------- Day 4 ----------------------
+
+name of test : mvit_b_21k__015__150__60_100
+-> backbone: mvitv2_base.fb_in1k - lr: 0.015 - batchsize: 16 - epoch: 150 - lr_step1: 60 - lr_step2: 100- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:43.62 Recall@5:70.21 AP:39.55
+SDM@1: 0.5274101054984798  - SDM@5: 0.49946828821616435 - SDM@10: 0.4527529063808817
+=====================================================================================================================
+name of test : caf_m36_22k_1k__015__150__60_100___b8
+-> backbone: caformer_m36.sail_in22k_ft_in1k - lr: 0.015 - batchsize: 8 - epoch: 150 - lr_step1: 60 - lr_step2: 100- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:1.06 Recall@5:3.19 AP:2.86
+SDM@1: 0.04206943404441266  - SDM@5: 0.05230833284272334 - SDM@10: 0.05440742826037167
+=====================================================================================================================
+name of test : tiny_11m_22k_1k__01__150__70_110
+-> backbone: tiny_vit_11m_224.dist_in22k_ft_in1k - lr: 0.01 - batchsize: 16 - epoch: 150 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:4.96 Recall@5:17.73 AP:5.58
+SDM@1: 0.0974332733786165  - SDM@5: 0.11011874655234491 - SDM@10: 0.1046017612498246
+=====================================================================================================================
+name of test : mxvit_s_1k__01__120__70_110
+-> backbone: maxvit_small_tf_224.in1k - lr: 0.01 - batchsize: 16 - epoch: 120 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:26.24 Recall@5:57.80 AP:22.44
+SDM@1: 0.3568713927312774  - SDM@5: 0.34106503693156465 - SDM@10: 0.3079164660500314
+=====================================================================================================================
+name of test : coat_2_12k_1k__01__120__70_110
+-> backbone: coatnet_2_rw_224.sw_in12k_ft_in1k - lr: 0.01 - batchsize: 16 - epoch: 120 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:5.67 Recall@5:20.21 AP:6.12
+SDM@1: 0.1239023371500691  - SDM@5: 0.13073890886437303 - SDM@10: 0.12580864304965808
+=====================================================================================================================
+name of test : conv_s36_22k_1k__01__120__70_110
+-> backbone: convformer_s36.sail_in22k_ft_in1k - lr: 0.01 - batchsize: 16 - epoch: 120 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:45.74 Recall@5:71.28 AP:39.01
+SDM@1: 0.5192113000472459  - SDM@5: 0.4824299252825734 - SDM@10: 0.4262584567962718
+=====================================================================================================================
+name of test : mvit_b_1k__0175__150__55_110
+-> backbone: mvitv2_base.fb_in1k - lr: 0.0175 - batchsize: 16 - epoch: 150 - lr_step1: 55 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:44.68 Recall@5:70.21 AP:37.09
+SDM@1: 0.5332380642923489  - SDM@5: 0.49037629683139017 - SDM@10: 0.4364811933942969
+=====================================================================================================================
+name of test : caf_m36_22k_1k__01__150__60_100___b8
+-> backbone: caformer_m36.sail_in22k_ft_in1k - lr: 0.01 - batchsize: 8 - epoch: 150 - lr_step1: 60 - lr_step2: 100- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:1.06 Recall@5:3.19 AP:2.86
+SDM@1: 0.04206943404441266  - SDM@5: 0.05230833284272334 - SDM@10: 0.05440742826037167
+=====================================================================================================================
+name of test : tiny_11m_22k_1k__015__150__70_110
+-> backbone: tiny_vit_11m_224.dist_in22k_ft_in1k - lr: 0.015 - batchsize: 16 - epoch: 150 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:3.90 Recall@5:11.70 AP:4.33
+SDM@1: 0.08900021032898899  - SDM@5: 0.08739582270248625 - SDM@10: 0.08416311043330053
+=====================================================================================================================
+name of test : mxvit_s_1k__015__150__60_100
+-> backbone: maxvit_small_tf_224.in1k - lr: 0.015 - batchsize: 16 - epoch: 150 - lr_step1: 60 - lr_step2: 100- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:18.09 Recall@5:37.94 AP:15.62
+SDM@1: 0.25821076550484856  - SDM@5: 0.2483857225167513 - SDM@10: 0.22258193320272857
+=====================================================================================================================
+name of test : coat_2_12k_1k__015__150__60_110
+-> backbone: coatnet_2_rw_224.sw_in12k_ft_in1k - lr: 0.015 - batchsize: 16 - epoch: 150 - lr_step1: 60 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:4.96 Recall@5:15.96 AP:5.88
+SDM@1: 0.11081005033827719  - SDM@5: 0.11435747810207278 - SDM@10: 0.11015512411811224
+=====================================================================================================================
+name of test : conv_s36_22k_1k__015__150__70_110
+-> backbone: convformer_s36.sail_in22k_ft_in1k - lr: 0.015 - batchsize: 16 - epoch: 150 - lr_step1: 60 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:5.32 Recall@5:19.15 AP:4.76
+SDM@1: 0.10308827782313641  - SDM@5: 0.10305363353889437 - SDM@10: 0.10146616374485297
+===================================================================================================================== ---------------------- Day 5 ----------------------
+
+name of test : mvit_b_1k__0125__180__65_130
+-> backbone: mvitv2_base.fb_in1k - lr: 0.0125 - batchsize: 16 - epoch: 180 - lr_step1: 65 - lr_step2: 130- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:50.71 Recall@5:75.89 AP:41.96
+SDM@1: 0.5936314159685251  - SDM@5: 0.5275483135852248 - SDM@10: 0.46823225530148543
+=====================================================================================================================
+name of test : caf_m36_22k_1k__0075__180__70_130
+-> backbone: caformer_m36.sail_in22k_ft_in1k - lr: 0.0075 - batchsize: 16 - epoch: 180 - lr_step1: 70 - lr_step2: 130- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:4.96 Recall@5:15.25 AP:5.11
+SDM@1: 0.11815431144485092  - SDM@5: 0.10179430086289629 - SDM@10: 0.09513440824160982
+=====================================================================================================================
+name of test : tiny_11m_22k_1k__0075__150__70_110
+-> backbone: tiny_vit_11m_224.dist_in22k_ft_in1k - lr: 0.0075 - batchsize: 16 - epoch: 150 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:4.61 Recall@5:21.28 AP:6.71
+SDM@1: 0.1318710515064882  - SDM@5: 0.14673768214604424 - SDM@10: 0.14780046773575428
+=====================================================================================================================
+name of test : mxvit_s_1k__0075__200__75_150
+-> backbone: maxvit_small_tf_224.in1k - lr: 0.0075 - batchsize: 16 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:21.63 Recall@5:48.94 AP:18.03
+SDM@1: 0.32906764788905146  - SDM@5: 0.31108725836639367 - SDM@10: 0.2829825242577857
+=====================================================================================================================
+name of test : mxvit_s_1k__0075__200__75_150
+-> backbone: coatnet_2_rw_224.sw_in12k_ft_in1k - lr: 0.0075 - batchsize: 16 - epoch: 180 - lr_step1: 70 - lr_step2: 130- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:7.45 Recall@5:18.79 AP:6.33
+SDM@1: 0.14707253326720554  - SDM@5: 0.1320199260927606 - SDM@10: 0.12312661808121876
+=====================================================================================================================
+name of test : conv_s36_22k_1k__01__150__70_110___b8
+-> backbone: convformer_s36.sail_in22k_ft_in1k - lr: 0.01 - batchsize: 8 - epoch: 150 - lr_step1: 55 - lr_step2: 100- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:1.06 Recall@5:3.19 AP:2.86
+SDM@1: 0.04206943404441266  - SDM@5: 0.05230833284272334 - SDM@10: 0.05440742826037167
+=====================================================================================================================
+name of test : mvit_b_1k__01__180__60_130
+-> backbone: mvitv2_base.fb_in1k - lr: 0.01 - batchsize: 16 - epoch: 180 - lr_step1: 60 - lr_step2: 130- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:47.87 Recall@5:75.89 AP:40.87
+SDM@1: 0.584556043500428  - SDM@5: 0.54209134153569 - SDM@10: 0.4808089446265257
+=====================================================================================================================
+name of test : caf_m36_22k_1k__005__250__80_170___b8
+-> backbone: caformer_m36.sail_in22k_ft_in1k - lr: 0.005 - batchsize: 8 - epoch: 250 - lr_step1: 80 - lr_step2: 170- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_b_1k__0075__180__75_140
+-> backbone: mvitv2_base.fb_in1k - lr: 0.01 - batchsize: 16 - epoch: 180 - lr_step1: 75 - lr_step2: 140- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:59.22 Recall@5:82.27 AP:46.48
+SDM@1: 0.686017705731769  - SDM@5: 0.6008810183354647 - SDM@10: 0.5230632462580627
+=====================================================================================================================
+name of test : eva2_b_p14__22k_1k__005__250__80_170
+-> backbone: eva02_base_patch14_224.mim_in22k - lr: 0.005 - batchsize: 16 - epoch: 250 - lr_step1: 80 - lr_step2: 170- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mxvit_rmlp_s_1k__0075__200__75_150
+-> backbone: caformer_m36.sail_in22k_ft_in1k - lr: 0.01 - batchsize: 8 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mxvit_rmlp_s_1k__0075__200__75_150
+-> backbone: caformer_m36.sail_in22k_ft_in1k - lr: 0.01 - batchsize: 8 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mxvit_rmlp_s_1k__0075__200__75_150
+-> backbone: caformer_m36.sail_in22k_ft_in1k - lr: 0.01 - batchsize: 8 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mxvit_rmlp_s_1k__0075__200__75_150
+-> backbone: caformer_m36.sail_in22k_ft_in1k - lr: 0.01 - batchsize: 8 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mxvit_rmlp_s_1k__0075__200__75_150
+-> backbone: caformer_m36.sail_in22k_ft_in1k - lr: 0.01 - batchsize: 8 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mxvit_rmlp_s_1k__0075__200__75_150
+-> backbone: caformer_m36.sail_in22k_ft_in1k - lr: 0.01 - batchsize: 8 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mxvit_rmlp_s_1k__0075__200__75_150
+-> backbone: caformer_m36.sail_in22k_ft_in1k - lr: 0.01 - batchsize: 8 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mxvit_rmlp_s_1k__0075__200__75_150
+-> backbone: caformer_m36.sail_in22k_ft_in1k - lr: 0.01 - batchsize: 8 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mxvit_rmlp_s_1k__0075__200__75_150
+-> backbone: caformer_m36.sail_in22k_ft_in1k - lr: 0.01 - batchsize: 8 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mxvit_rmlp_s_1k__0075__200__75_150
+-> backbone: caformer_m36.sail_in22k_ft_in1k - lr: 0.01 - batchsize: 8 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mxvit_rmlp_s_1k__0075__200__75_150
+-> backbone: caformer_m36.sail_in22k_ft_in1k - lr: 0.01 - batchsize: 8 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mxvit_rmlp_s_1k__0075__200__75_150
+-> backbone: caformer_m36.sail_in22k_ft_in1k - lr: 0.01 - batchsize: 8 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mxvit_rmlp_s_1k__0075__200__75_150
+-> backbone: caformer_m36.sail_in22k_ft_in1k - lr: 0.01 - batchsize: 8 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mxvit_rmlp_s_1k__0075__200__75_150
+-> backbone: caformer_m36.sail_in22k_ft_in1k - lr: 0.01 - batchsize: 8 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mxvit_rmlp_s_1k__0075__200__75_150
+-> backbone: caformer_m36.sail_in22k_ft_in1k - lr: 0.01 - batchsize: 8 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mxvit_rmlp_s_1k__0075__200__75_150
+-> backbone: caformer_m36.sail_in22k_ft_in1k - lr: 0.01 - batchsize: 8 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_dual
+-> backbone: vit_small_patch16_224.augreg_in21k_ft_in1k - lr: 0.01 - batchsize: 16 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_dual
+-> backbone: vit_small_patch16_224.augreg_in21k_ft_in1k - lr: 0.01 - batchsize: 16 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_dual
+-> backbone: vit_small_patch16_224.augreg_in21k_ft_in1k - lr: 0.01 - batchsize: 16 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_dual
+-> backbone: vit_small_patch16_224.augreg_in21k_ft_in1k - lr: 0.01 - batchsize: 16 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_dual
+-> backbone: vit_small_patch16_224.augreg_in21k_ft_in1k - lr: 0.01 - batchsize: 16 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_dual
+-> backbone: vit_small_patch16_224.augreg_in21k_ft_in1k - lr: 0.01 - batchsize: 16 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_dual
+-> backbone: vit_small_patch16_224.augreg_in21k_ft_in1k - lr: 0.01 - batchsize: 16 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_dual
+-> backbone: vit_small_patch16_224.augreg_in21k_ft_in1k - lr: 0.01 - batchsize: 16 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_dual
+-> backbone: vit_small_patch16_224.augreg_in21k_ft_in1k - lr: 0.01 - batchsize: 16 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_dual
+-> backbone: vit_small_patch16_224.augreg_in21k_ft_in1k - lr: 0.01 - batchsize: 16 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_dual
+-> backbone: vit_small_patch16_224.augreg_in21k_ft_in1k - lr: 0.01 - batchsize: 16 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_dual
+-> backbone: vit_small_patch16_224.augreg_in21k_ft_in1k - lr: 0.01 - batchsize: 16 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_dual
+-> backbone: vit_small_patch16_224.augreg_in21k_ft_in1k - lr: 0.01 - batchsize: 16 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_dual
+-> backbone: vit_small_patch16_224.augreg_in21k_ft_in1k - lr: 0.01 - batchsize: 16 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_dual
+-> backbone: vit_small_patch16_224.augreg_in21k_ft_in1k - lr: 0.01 - batchsize: 16 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_dual
+-> backbone: vit_small_patch16_224.augreg_in21k_ft_in1k - lr: 0.01 - batchsize: 16 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_dual
+-> backbone: vit_small_patch16_224.augreg_in21k_ft_in1k - lr: 0.01 - batchsize: 16 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_dual
+-> backbone: vit_small_patch16_224.augreg_in21k_ft_in1k - lr: 0.01 - batchsize: 16 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_dual
+-> backbone: vit_small_patch16_224.augreg_in21k_ft_in1k - lr: 0.01 - batchsize: 16 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_dual
+-> backbone: vit_small_patch16_224.augreg_in21k_ft_in1k - lr: 0.01 - batchsize: 16 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_dual
+-> backbone: vit_small_patch16_224.augreg_in21k_ft_in1k - lr: 0.01 - batchsize: 16 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_dual
+-> backbone: vit_small_patch16_224.augreg_in21k_ft_in1k - lr: 0.01 - batchsize: 16 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_dual
+-> backbone: vit_small_patch16_224.augreg_in21k_ft_in1k - lr: 0.01 - batchsize: 16 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_dual
+-> backbone: vit_small_patch16_224.augreg_in21k_ft_in1k - lr: 0.01 - batchsize: 16 - epoch: 200 - lr_step1: 75 - lr_step2: 150- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_dual
+-> backbone: vit_small_patch16_224.augreg_in21k_ft_in1k - lr: 0.01 - batchsize: 16 - epoch: 120 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_dual
+-> backbone: ViTS-224 - lr: 0.01 - batchsize: 16 - epoch: 2 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_dual_test1
+-> backbone: ViTS-224 - lr: 0.01 - batchsize: 16 - epoch: 2 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_dual_test1
+-> backbone: ViTS-224 - lr: 0.01 - batchsize: 16 - epoch: 2 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_dual_test1
+-> backbone: ViTS-224 - lr: 0.01 - batchsize: 16 - epoch: 1 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_dual_test1
+-> backbone: ViTS-224 - lr: 0.01 - batchsize: 16 - epoch: 1 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_dual_test1
+-> backbone: ViTS-224 - lr: 0.01 - batchsize: 16 - epoch: 1 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_dual_test1
+-> backbone: ViTS-224 - lr: 0.01 - batchsize: 16 - epoch: 1 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_dual_test1
+-> backbone: ViTS-224 - lr: 0.01 - batchsize: 16 - epoch: 1 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_dual_test1
+-> backbone: ViTS-224 - lr: 0.01 - batchsize: 16 - epoch: 1 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:6.38 Recall@5:17.38 AP:5.62
+SDM@1: 0.16652826712259508  - SDM@5: 0.15203405169243486 - SDM@10: 0.14956000560228286
+=====================================================================================================================
+name of test : vit_s_1k_dual_run_sam
+-> backbone: ViTS-224 - lr: 0.01 - batchsize: 16 - epoch: 120 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : vit_s_1k_dual_run_sam
+-> backbone: ViTS-224 - lr: 0.01 - batchsize: 16 - epoch: 120 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:37.23 Recall@5:65.25 AP:28.45
+SDM@1: 0.4550811625819428  - SDM@5: 0.4052672526811549 - SDM@10: 0.361708473406741
+=====================================================================================================================
+name of test : vit_s_1k_dual_run_sam
+-> backbone: ViTS-224 - lr: 0.01 - batchsize: 16 - epoch: 120 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : vit_s_1k_dual_run_sam_test2
+-> backbone: ViTS-224 - lr: 0.01 - batchsize: 16 - epoch: 120 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : vit_s_1k_dual_run_sam_test2
+-> backbone: ViTS-224 - lr: 0.01 - batchsize: 16 - epoch: 120 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:31.21 Recall@5:64.89 AP:26.87
+SDM@1: 0.41898815859287186  - SDM@5: 0.4003175108511983 - SDM@10: 0.3586222088629244
+=====================================================================================================================
+name of test : vit_s_1k_dual_run_sam_test3_elementvisemax
+-> backbone: ViTS-224 - lr: 0.01 - batchsize: 16 - epoch: 120 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:41.13 Recall@5:70.21 AP:31.99
+SDM@1: 0.49526039594931626  - SDM@5: 0.4471735826523984 - SDM@10: 0.39640606244994425
+=====================================================================================================================
+name of test : mvit_s_1k_dual_run_sam_test3_elementvisemax
+-> backbone: mvitv2_base_cls.fb_inw21k - lr: 0.01 - batchsize: 16 - epoch: 120 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_s_1k_dual_run_sam_test3_elementvisemax
+-> backbone: mvitv2_base_cls.fb_inw21k - lr: 0.01 - batchsize: 16 - epoch: 120 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : vit_s_1k_dual_run_sam_test3_concat
+-> backbone: ViTS-224 - lr: 0.01 - batchsize: 16 - epoch: 120 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : vit_s_1k_dual_run_sam_test3_concat
+-> backbone: ViTS-224 - lr: 0.01 - batchsize: 16 - epoch: 120 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : vit_s_1k_dual_run_sam_test3_concat
+-> backbone: ViTS-224 - lr: 0.01 - batchsize: 16 - epoch: 120 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : vit_s_1k_dual_run_sam_test3_concat
+-> backbone: ViTS-224 - lr: 0.01 - batchsize: 16 - epoch: 120 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : vit_s_1k_dual_run_sam_test3_concat
+-> backbone: ViTS-224 - lr: 0.01 - batchsize: 16 - epoch: 120 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : vit_s_1k_dual_run_sam_test3_concat
+-> backbone: ViTS-224 - lr: 0.01 - batchsize: 16 - epoch: 120 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : vit_s_1k_dual_run_sam_test3_concat
+-> backbone: ViTS-224 - lr: 0.01 - batchsize: 16 - epoch: 120 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : vit_s_1k_dual_run_sam_test3_concat
+-> backbone: ViTS-224 - lr: 0.01 - batchsize: 16 - epoch: 120 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : vit_s_1k_dual_run_sam_test3_concat
+-> backbone: ViTS-224 - lr: 0.01 - batchsize: 16 - epoch: 120 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : vit_s_1k_dual_run_sam_test3_concat
+-> backbone: ViTS-224 - lr: 0.01 - batchsize: 16 - epoch: 120 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : vit_s_1k_dual_run_sam_test3_concat
+-> backbone: ViTS-224 - lr: 0.01 - batchsize: 16 - epoch: 120 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : vit_s_1k_dual_run_sam_test3_concat
+-> backbone: ViTS-224 - lr: 0.01 - batchsize: 16 - epoch: 120 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : vit_s_1k_dual_run_sam_test3_concat
+-> backbone: ViTS-224 - lr: 0.01 - batchsize: 16 - epoch: 120 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : vit_s_1k_dual_run_sam_test3_concat
+-> backbone: ViTS-224 - lr: 0.01 - batchsize: 16 - epoch: 120 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:25.53 Recall@5:56.74 AP:22.66
+SDM@1: 0.35443649329673016  - SDM@5: 0.34564974414214983 - SDM@10: 0.31262226835327467
+=====================================================================================================================
+name of test : vit_s_1k_dual_run_sam_test3_concat
+-> backbone: ViTS-224 - lr: 0.01 - batchsize: 16 - epoch: 120 - lr_step1: 70 - lr_step2: 110- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+Recall@1:25.53 Recall@5:56.74 AP:22.66
+SDM@1: 0.35443649329673016  - SDM@5: 0.34564974414214983 - SDM@10: 0.31262226835327467
+=====================================================================================================================
+name of test : mvit_s_1k_dual_run_sam_elementvisemax
+-> backbone: mvitv2_base_cls.fb_inw21k - lr: 0.015 - batchsize: 16 - epoch: 150 - lr_step1: 760 - lr_step2: 100- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_s_1k_dual_run_sam_elementvisemax
+-> backbone: mvitv2_base_cls.fb_inw21k - lr: 0.015 - batchsize: 16 - epoch: 150 - lr_step1: 760 - lr_step2: 100- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_s_1k_dual_run_sam_elementvisemax
+-> backbone: mvitv2_base_cls.fb_inw21k - lr: 0.015 - batchsize: 16 - epoch: 150 - lr_step1: 760 - lr_step2: 100- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_s_1k_dual_run_sam_elementvisemax
+-> backbone: mvitv2_base.fb_in1k - lr: 0.015 - batchsize: 16 - epoch: 150 - lr_step1: 760 - lr_step2: 100- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
+name of test : mvit_s_1k_dual_run_sam_elementvisemax
+-> backbone: eva02_small_patch14_224.mim_in22k - lr: 0.015 - batchsize: 16 - epoch: 150 - lr_step1: 760 - lr_step2: 100- head: SingleBranch - head_pool: avg - feature_loss: WeightedSoftTripletLoss
